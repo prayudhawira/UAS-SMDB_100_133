@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+.heading h1{background-color:#D8BFD8; text-align:center;}
+
+body{
+	margin:0px;
+	padding:0px;
+	background-image:url("bijibiji.jpg");
+	background-position: center;
+	background-size:100% 100%;
+}
+
+#main, #formreg{
+	height: 500px;
+	width: 500px;
+	background-color: black;
+	box-shadow: 0 0 0 30px rgba(255,255,255,.2);
+	border-radius:50%;
+	position:fixed;
+	top:53%;
+	left:50%;
+	transform: translate(-50%,-50%) rotateY(0deg);
+}
+
+table{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#title{
+	font-family: "Metal Mania";
+	font-size: 30px;
+	color: #FFA07A;
+	text-align: center;
+}
+
+hr{
+	margin: 5px auto;
+	padding: 0px;
+}
+
+input[type=text], input[type=password]{
+	height: 35px;
+	width:400px;
+	font-family: sans-serif;
+	font-size: 18px;
+	border-radius: 35px;
+	border: none;
+	outline: none;
+	border:1px solid darkgrey;
+	padding:20px;
+}
+
+#forget{
+	font-family:calibri;
+	color:#777;
+	font-size:16px;
+}
+
+#signInBtn, #signUpBtn{
+	height:35px;
+	width:250px;
+	font-family:"Metal Mania";
+	font-size:25px;
+	color:#white;
+	line-height:0px;
+	border:none;
+	outline:none;
+	background-color:#FF5B3F;
+	border-radius:35px;
+	padding:20px;
+	cursor:pointer;
+}
+
+#noAccount, #account{
+	font-family:calibri;
+	font-size:16px;
+	color:#777;
+}
+
+a{
+	color:#FFB6C1;
+	
+}
+
+#main{
+	-webkit-backface-visibility:hidden;
+	-webkit-animation-duration:2s;
+}
+#formreg{
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:translate(-50%,-50%) rotateY(180deg);
+	-webkit-animation-duration:2s;
+}
+
+@-webkit-keyframes showSignUp{
+	0%{transform:translate(-50%,-50%) rotateY(0deg);}
+	100%{transform:translate(-50%,-50%) rotateY(180deg);}
+}
+
+@-webkit-keyframes hideSignIn{
+	0%{transform:translate(-50%,-50%) rotateY(100deg);}
+	100%{transform:translate(-50%,-50%) rotateY( 0deg);}
+}
+
+@-webkit-keyframes showSignIn{
+	0%{transform:translate(-50%,-50%) rotateY(0deg);}
+	100%{transform:translate(-50%,-50%) rotateY(180deg);}
+}
+
+@-webkit-keyframes hideSignUp{
+	0%{transform:translate(-50%,-50%) rotateY(100deg);}
+	100%{transform:translate(-50%,-50%) rotateY( 0deg);}
+}

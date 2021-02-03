@@ -1,0 +1,8 @@
+admin 1
+nama : Prayudha Wira Aryaputra
+password : 1408
+
+
+admin 2
+nama : Ananda Tri Syahputra
+password : 191401100

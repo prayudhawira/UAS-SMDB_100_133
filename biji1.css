@@ -1,0 +1,117 @@
+#pembuka {			
+background-image:url("bijibiji1.jpg");
+background-position: center;
+background-size: cover;
+font-family: verdana;
+line-height: 1.5em;
+margin: 20px;}
+background-color: #fffggff;
+}
+header {
+height: 2px;
+width: 3px;
+}
+.nav, header {
+clear: both;
+color: #4b4b4b;
+background-color: #dcdcdc;
+padding:20px;
+opacity:0.70;
+height: 100px;
+}
+.nav, footer {
+clear: both;
+color: #ffffff;
+background-color: #aeaca8;
+height: 60px;
+}
+.nav ul {
+margin: 10px;
+padding: 5px 0px 5px 30px;
+}
+.nav li {
+display: inline;
+margin-right: 30px;
+}
+.nav li a {
+color: #ffffff;
+}
+.nav li a:hover, nav li a.current {
+color: green;
+}
+section.courses {
+float: left;
+width: 659px;
+border-right: 1px solid #eeeeee;
+}
+.article {
+clear: both;
+overflow: auto;
+width: 100%; 
+}
+.hgroup {
+margin-top: 40px;
+}
+.figcaption {
+font-size: 90%;
+text-align: left;
+}
+
+h1 {
+color: #f4a460;
+margin: 10px;
+}
+
+h3 {
+color: #ffd700;
+margin: 10px;
+}
+h4 {
+color: #fffafa;
+margin: 10px;
+}
+
+p {
+font-size:13px;
+color: #ffffff;
+margin: 10px;
+}
+#kedua {			
+background-image:url("biji2.jpg");
+background-position: center;
+background-size: cover;
+font-family: verdana;
+line-height: 1.5em;
+margin: 20px;}
+background-color: #fffggff;
+}
+h5 {
+color: #fffafa;
+margin: 10px;
+}
+
+.tips {
+float: right;
+width: 300px;
+border-right: 1px solid #eeeeee;
+}
+button{
+margin:10px;
+padding:10px 15px;
+border-color:black;
+border:2px solid;
+color: #eeeeee;
+background:#000000;
+border-radius:15px;
+}
+
+#ketiga {			
+background-image:url("biji2.jpg");
+background-position: center;
+background-size: cover;
+font-family: verdana;
+line-height: 1.5em;
+margin: 20px;}
+background-color: #fffggff;
+}
+
